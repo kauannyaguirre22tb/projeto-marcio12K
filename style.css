@@ -64,14 +64,47 @@
     font-family: 'Poppins', sans-serif;
 }
 
+
 .maincontainer .landing .title {
-    font-size: 9.375rem;
+    font-size: 6rem;
     font-family: 'Righteous', sans-serif;
     color: #32402F;
     text-align: center;
     animation: slideUpDown 2s ease-in-out infinite;
     display: inline-block;
 }
+
+.maincontainer .landing .subtitle {
+    font-size: 2rem;
+    text-align: center;
+    
+}
+
+.mainverde {
+    background-color: #32402F;
+   
+}
+
+.mainverde .title {
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+}
+
+.mainverde img {
+    flex: 0.5;
+}
+
+.mainverde .conteudo {
+    color: white;
+    display: flex;
+    gap: 2rem; 
+} 
+.mainverde .conteudobandeira {
+    color: white;
+}
+
+
 
 .landing {
     margin-top: 4rem;
